@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(to bottom, gold, rgb(247, 224, 93) );
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.estrela{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(
+        50% 0%,
+        62% 38%,
+        100% 38%,
+        69% 59%,
+        82% 100%,
+        50% 72%,
+        18% 100%,
+        31% 59%,
+        0% 38%,
+        38% 38%
+);
+zoom: min(1, 1000vw / 600px);
+}
